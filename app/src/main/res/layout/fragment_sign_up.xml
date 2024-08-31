@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentSignIn">
+    tools:context=".SignUp">
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="80dp"
         android:orientation="vertical"
+        android:padding="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,28 +44,50 @@
             android:layout_height="match_parent"
             android:background="@drawable/rectangle"
             android:hint="*********"/>
-
         <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"/>
+        <EditText
+            android:layout_marginLeft="2sp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="5dp"
-            android:gravity="end"
-            android:text="@string/forgot_password"/>
+            android:background="@drawable/rectangle"
+            android:hint="*********"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birth Date"/>
+        <EditText
+            android:layout_marginLeft="2sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangle"
+            android:hint="*********"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cellphone Number"/>
+        <EditText
+            android:layout_marginLeft="2sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangle"
+            android:hint="*********"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:text="Login"
-            android:layout_marginTop="5dp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/sign_up"
-            android:gravity="center"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginTop="10dp"
+            android:text="Submit"
+            android:layout_gravity="end"/>
 
 
     </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
