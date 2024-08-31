@@ -46,4 +46,6 @@
         \n\n Address: MISSUBIBI
 
     </string>
+
+    <string name="seat.color">Red = Unavailable | Yellow = Reserved | Grey = Available</string>
 </resources>
