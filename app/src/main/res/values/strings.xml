@@ -4,4 +4,46 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="forgot_password"><u>Forgot Password?</u></string>
     <string name="sign_up"><u>Sign Up?</u></string>
+    <string name="terms"><u>Terms and Conditions</u></string>
+
+    <string name="termsandcondition">
+
+        1. Introduction
+        Welcome to Deluxe Point2Point Bus Seat Reservation App. These Terms and Conditions govern your use of our app and services. By accessing or using our app, you agree to be bound by these Terms. If you do not agree, please do not use the app.
+
+        \n\n 2. Eligibility
+        \n\n <li>Age Requirement: You must be at least 18 years old to use our app. By using the app, you represent and warrant that you are of legal age.</li>
+        \n\n <li>Account Creation: You may be required to create an account to use certain features. You agree to provide accurate and complete information during registration and to keep your account details up-to-date.</li>
+
+        \n\n 3. Services
+        Reservation: The app allows you to reserve bus seats for point-to-point travel. Seat availability is subject to real-time updates and cannot be guaranteed.
+        Payment: All reservations must be paid through the app. Payments are processed through a third-party payment gateway. You agree to comply with the payment provider’s terms.
+
+        \n\n 4. Cancellation and Refunds
+        \n\n <li>Cancellation Policy: You may cancel your reservation according to the cancellation policy specified in the app. Cancellation fees may apply.</li>
+        \n\n <li>Refunds: Refunds are processed in accordance with our cancellation policy. Refunds will be issued to the original payment method used at the time of reservation.</li>
+
+        \n\n 5. User Responsibilities
+        \n\n <li>Account Security: You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.</li>
+        \n\n <li>Prohibited Conduct: You agree not to engage in any unlawful, harmful, or disruptive activities. This includes, but is not limited to, fraud, harassment, or unauthorized access to the app.</li>
+
+        \n\n 6. Content and Intellectual Property
+        \n\n <li>Ownership: All content, trademarks, and other intellectual property associated with the app are owned by us or our licensors. You may not use or reproduce any content without our prior written consent.</li>
+        \n\n <li>User Content: Any content you submit to the app must not infringe on any intellectual property rights or violate any laws. We reserve the right to remove any user-generated content that violates these Terms.</li>
+
+        \n\n 7. Disclaimers and Limitation of Liability
+        \n\n <li>Disclaimers: The app is provided on an “as-is” and “as-available” basis. We make no warranties regarding the accuracy, reliability, or availability of the app.</li>
+        \n\n <li>Limitation of Liability: To the maximum extent permitted by law, we are not liable for any indirect, incidental, or consequential damages arising from your use of the app.</li>
+
+        \n\n 8. Changes to Terms
+        \n\n <li>We may modify these Terms from time to time. Any changes will be posted on this page with an updated effective date. Your continued use of the app after such changes constitutes your acceptance of the new Terms.</li>
+
+        \n\n 9. Termination
+        \n\n <li>We reserve the right to suspend or terminate your access to the app at our sole discretion, with or without notice, if you violate these Terms or for any other reason.</li>
+
+        \n\n 11. Contact Us If you have any questions or concerns about these Terms or the app, please contact us at:
+        \n\n Email: sapusomo@gmail.com
+        \n\n Address: MISSUBIBI
+
+    </string>
 </resources>

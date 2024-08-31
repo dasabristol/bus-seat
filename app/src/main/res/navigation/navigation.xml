@@ -9,5 +9,42 @@
         android:id="@+id/fragmentSignIn"
         android:name="com.example.bus_seat.FragmentSignIn"
         android:label="fragment_sign_in"
-        tools:layout="@layout/fragment_sign_in" />
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_fragmentSignIn_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_fragmentSignIn_to_forgotPassword"
+            app:destination="@id/forgotPassword" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.bus_seat.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_fragmentSignIn"
+            app:destination="@id/fragmentSignIn" />
+        <action
+            android:id="@+id/action_signUp_to_termsAndCondition"
+            app:destination="@id/termsAndCondition" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPassword"
+        android:name="com.example.bus_seat.ForgotPassword"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" >
+        <action
+            android:id="@+id/action_forgotPassword_to_fragmentSignIn"
+            app:destination="@id/fragmentSignIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/termsAndCondition"
+        android:name="com.example.bus_seat.TermsAndCondition"
+        android:label="fragment_terms_and_condition"
+        tools:layout="@layout/fragment_terms_and_condition" >
+        <action
+            android:id="@+id/action_termsAndCondition_to_signUp"
+            app:destination="@id/signUp" />
+    </fragment>
 </navigation>
