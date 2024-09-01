@@ -47,5 +47,8 @@
 
     </string>
 
-    <string name="seat.color">Red = Unavailable | Yellow = Reserved | Grey = Available</string>
+    <string name="seat.color">
+        Red = Unavailable
+        \n\n Yellow = Reserved
+        \n\n Grey = Available</string>
 </resources>
