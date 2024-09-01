@@ -123,7 +123,6 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatA1"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="2"
@@ -131,6 +130,7 @@
                     android:layout_margin="4dp">
 
                     <ImageView
+                        android:id="@+id/seatA1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
@@ -138,7 +138,6 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatA2"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="2"
@@ -146,6 +145,7 @@
                     android:layout_margin="4dp">
 
                     <ImageView
+                        android:id="@+id/seatA2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
@@ -153,7 +153,6 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatA3"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="2"
@@ -161,6 +160,7 @@
                     android:layout_margin="4dp">
 
                     <ImageView
+                        android:id="@+id/seatA3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
@@ -168,7 +168,6 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatA4"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="2"
@@ -176,16 +175,13 @@
                     android:layout_margin="4dp">
 
                     <ImageView
+                        android:id="@+id/seatA4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
-
-
                 </androidx.cardview.widget.CardView>
 
-
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatB1"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="3"
@@ -193,13 +189,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatB1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatB2"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="3"
@@ -207,13 +203,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatB2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatB3"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="3"
@@ -221,13 +217,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatB3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatB4"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="3"
@@ -235,13 +231,13 @@
                     android:layout_margin="4dp">
 
                     <ImageView
+                        android:id="@+id/seatB4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatEC1"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="4"
@@ -249,13 +245,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatEC1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatC2"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="4"
@@ -263,13 +259,13 @@
                     android:layout_margin="4dp">
 
                     <ImageView
+                        android:id="@+id/seatC2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatC3"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="4"
@@ -277,13 +273,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatC3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatC4"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="4"
@@ -291,13 +287,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatC4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatD1"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="5"
@@ -305,13 +301,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatD1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatD2"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="5"
@@ -319,13 +315,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatD2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatF3"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:layout_row="5"
@@ -346,7 +342,6 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatE1"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="6"
@@ -354,13 +349,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatE1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatE2"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="6"
@@ -368,16 +363,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatE2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
-
-
-
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatF1"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="7"
@@ -385,13 +377,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatF1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatF2"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="7"
@@ -399,13 +391,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatF2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatF3"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="7"
@@ -413,13 +405,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatF3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatF4"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="7"
@@ -427,13 +419,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatF4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatG1"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="8"
@@ -441,13 +433,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatG1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatG2"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="8"
@@ -455,13 +447,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatG2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatG3"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="8"
@@ -469,13 +461,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatG3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatG4"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="8"
@@ -483,13 +475,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatG4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatH1"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="9"
@@ -497,13 +489,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatH1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatH2"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="9"
@@ -511,13 +503,13 @@
                     android:layout_margin="4dp">
 
                     <ImageView
+                        android:id="@+id/seatH2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatH3"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="9"
@@ -525,13 +517,13 @@
                     android:layout_margin="4dp" >
 
                     <ImageView
+                        android:id="@+id/seatH3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/seatH4"
                     android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_row="9"
@@ -539,6 +531,7 @@
                     android:layout_margin="4dp">
 
                     <ImageView
+                        android:id="@+id/seatH4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/seats" />
