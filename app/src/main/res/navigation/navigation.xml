@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_fragmentSignIn_to_forgotPassword"
             app:destination="@id/forgotPassword" />
+        <action
+            android:id="@+id/action_fragmentSignIn_to_home2"
+            app:destination="@id/home2" />
     </fragment>
     <fragment
         android:id="@+id/signUp"
@@ -46,5 +49,35 @@
         <action
             android:id="@+id/action_termsAndCondition_to_signUp"
             app:destination="@id/signUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.bus_seat.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.bus_seat.profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profile_to_editprofile"
+            app:destination="@id/editprofile" />
+        <action
+            android:id="@+id/action_profile_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/editprofile"
+        android:name="com.example.bus_seat.editprofile"
+        android:label="fragment_editprofile"
+        tools:layout="@layout/fragment_editprofile" >
+        <action
+            android:id="@+id/action_editprofile_to_profile"
+            app:destination="@id/profile" />
     </fragment>
 </navigation>
