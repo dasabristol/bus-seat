@@ -71,8 +71,7 @@
                     android:layout_row="0"
                     app:cardCornerRadius="15dp"
                     android:layout_column="4"
-                    android:layout_margin="4dp"
-                    android:background="0" >
+                    android:layout_margin="4dp">
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -106,8 +105,7 @@
                     android:layout_row="1"
                     android:layout_column="2"
                     app:cardCornerRadius="15dp"
-                    android:layout_margin="4dp"
-                    android:background="0" >
+                    android:layout_margin="4dp" >
 
                 </androidx.cardview.widget.CardView>
 
@@ -565,7 +563,15 @@
 
             </GridLayout>
 
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Reserve Now"/>
+
         </LinearLayout>
+
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
